@@ -1,0 +1,39 @@
+
+
+GET http://localhost:3000/users/becka
+
+###
+
+POST http://localhost:3000/users/ 
+Content-Type: application/json
+
+{
+"title": "Ny titleeee", "text": "Texterna", "author": "becka"
+}
+
+
+### 
+
+POST http://localhost:3000/users/update 
+Content-Type: application/json
+
+{ "id": 8, "title": "uppdaterat", "text": "kompis", "author": "becka" }
+
+
+###
+
+POST http://localhost:3000/login 
+Content-Type: application/json
+
+{ "username": "becka", "password": "pass" }
+
+###
+
+POST http://localhost:3000/login/newUser 
+Content-Type: application/json
+
+{ "username": "beckasss", "password": "pass" }
+
+###
+
+DELETE  http://localhost:3000/users/1
