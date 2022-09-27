@@ -41,7 +41,7 @@ export function AddNote() {
                 onChange={handletitle}
             />
             <Editor
-                apiKey="6hqytudlu870wzja968yokx4myr1nzyi3rr9f1424qxxbdp2"
+                apiKey="zm6x884rh2p5tf2p2ww14v7iwehavaen8m2hkgxzy5thwkcq"
                 onInit={(evt, editor) => (editorRef.current = editor)}
                 init={{
                     height: 200,
